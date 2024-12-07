@@ -1,2 +1,2 @@
 # IHCATCadClientes
-Atividade de Cadastro de Clientes da matéria de Interação Humano Computador
+Atividade de Cadastro de Clientes sobre Princípios de Interação Humano Computador
