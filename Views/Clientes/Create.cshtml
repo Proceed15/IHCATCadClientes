@@ -5,12 +5,12 @@
 
     if (action == "create")
     {
-        ViewData["Title"] = "Adicionar cliente";
+        ViewData["Title"] = "Adicionar Cliente";
         <h1>Adicionar</h1>
     }
     else
     {
-        ViewData["Title"] = "Editar cliente";
+        ViewData["Title"] = "Editar Cliente";
         <h1>Editar</h1>
     }
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -134,13 +134,13 @@
         </div>
             <br />
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Cadastrar" class="btn btn-primary" />
             </div>
         }
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Voltar</a>
 </div>
 <!-- Seção para Validação do CPF e RG! -->
 @section Scripts {
