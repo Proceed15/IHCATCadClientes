@@ -11,7 +11,7 @@
         "projectName": "IHCATCadClientes",
         "projectPath": "C:\\Users\\JRLSF\\source\\repos\\IHCATCadClientes\\IHCATCadClientes.csproj",
         "packagesPath": "C:\\Users\\JRLSF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JRLSF\\Source\\Repos\\IHCATCadClientes\\obj\\",
+        "outputPath": "C:\\Users\\JRLSF\\source\\repos\\IHCATCadClientes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

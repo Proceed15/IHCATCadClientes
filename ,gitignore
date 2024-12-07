@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# .vs Folder
+*.vs/
+
 # User-specific files
 *.rsuser
 *.suo
@@ -93,6 +96,7 @@ StyleCopReport.xml
 *.log
 *.vspscc
 *.vssscc
+*.vsidx
 .builds
 *.pidb
 *.svclog
