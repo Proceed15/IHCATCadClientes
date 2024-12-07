@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JRLSF\\source\\repos\\IHCATCadClientes\\IHCATCadClientes.csproj": {}
+    "C:\\Users\\JRLSF\\Source\\Repos\\IHCATCadClientes\\IHCATCadClientes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JRLSF\\source\\repos\\IHCATCadClientes\\IHCATCadClientes.csproj": {
+    "C:\\Users\\JRLSF\\Source\\Repos\\IHCATCadClientes\\IHCATCadClientes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JRLSF\\source\\repos\\IHCATCadClientes\\IHCATCadClientes.csproj",
+        "projectUniqueName": "C:\\Users\\JRLSF\\Source\\Repos\\IHCATCadClientes\\IHCATCadClientes.csproj",
         "projectName": "IHCATCadClientes",
-        "projectPath": "C:\\Users\\JRLSF\\source\\repos\\IHCATCadClientes\\IHCATCadClientes.csproj",
+        "projectPath": "C:\\Users\\JRLSF\\Source\\Repos\\IHCATCadClientes\\IHCATCadClientes.csproj",
         "packagesPath": "C:\\Users\\JRLSF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JRLSF\\source\\repos\\IHCATCadClientes\\obj\\",
+        "outputPath": "C:\\Users\\JRLSF\\Source\\Repos\\IHCATCadClientes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
