@@ -74,7 +74,6 @@ namespace IHCATCadClientes.Models
     }
     public enum EstadoCivil
     {
-        NaoInformar = 0,
         Solteiro = 1,
         Casado = 2,
         Divorciado = 3,

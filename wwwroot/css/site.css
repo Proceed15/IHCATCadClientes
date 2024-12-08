@@ -1,4 +1,5 @@
 /* Mudanças Gerais no Estilo usando esse Arquivo (site.css)! */
+/* Estilos da Barra de Navegação */
 html {
   font-size: 14px;
 }
@@ -29,7 +30,45 @@ body {
     margin-bottom: 60px;
     font-family: 'Roboto', sans-serif;
 }
-/* Estilo da Tabela */
+/* Estilos da Home Page */
+.home-paragraph {
+    font-size: 1.2rem; /* Tamanho de texto maior */
+    line-height: 1.6; /* Melhor espaçamento entre linhas */
+    margin-bottom: 1.5rem; /* Espaçamento entre os parágrafos */
+    color: #333; /* Cor do texto */
+}
+
+    /* Estilo para links dentro dos parágrafos */
+    .home-paragraph a {
+        color: #17a2b8; /* Cor azul claro para os links */
+        text-decoration: none; /* Retirar sublinhado */
+        font-weight: bold; /* Deixar os links em negrito */
+        transition: color 0.3s ease, text-decoration 0.3s ease; /* Efeito suave na cor e sublinhado */
+    }
+
+        /* Estilo do link ao passar o mouse */
+        .home-paragraph a:hover {
+            color: #0056b3; /* Cor mais escura do azul */
+            text-decoration: underline; /* Sublinha o link ao passar o mouse */
+        }
+
+/* Estilo do título h1 */
+.home-title {
+    font-size: 2.5rem; /* Tamanho do título */
+    font-weight: 700; /* Negrito */
+    color: #333; /* Cor escura */
+    margin-bottom: 2rem; /* Espaçamento abaixo do título */
+}
+
+/* Centralização e estilo geral do conteúdo */
+.text-center {
+    text-align: center; /* Centraliza todo o conteúdo dentro da div */
+    padding: 2rem; /* Adiciona espaçamento interno */
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Estilo da Tabela de Clientes */
 .table {
     width: 100%;
     border-collapse: collapse;
@@ -47,8 +86,8 @@ body {
 }
 
 /* Cabeçalho da tabela */
-.table-light th {
-    background-color: #FFD700;
+.table th {
+    background-color: #266cfb;
     color: white;
     font-weight: lighter;
 }
@@ -59,7 +98,7 @@ body {
     padding: 12px;
 }
 
-/* Estilizando os botões de ação */
+/* Estilizando os botões das Actions */
 .btn {
     font-size: 0.875rem;
     color: white;
@@ -105,7 +144,7 @@ body {
         transform: translateY(-2px);
     }
 
-/* Estilo para o título principal */
+/* Estilos para a página de Detalhes do Cliente */
 h1 {
     font-size: 2rem;
     font-weight: 600;
@@ -125,3 +164,82 @@ h1 {
 .btn-sm:hover {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* Estilo para o título principal */
+.client-details-title {
+    font-size: 2.5rem; /* Tamanho do título */
+    font-weight: bold; /* Título em negrito */
+    color: #333; /* Cor escura para o título */
+    margin-bottom: 2rem; /* Espaçamento abaixo do título */
+}
+
+/* Estilo para os parágrafos e listas de definição (dl) */
+.client-details-dl {
+    margin-bottom: 1.5rem; /* Espaçamento entre os blocos de informações */
+    background-color: #f9f9f9; /* Cor de fundo leve */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 1rem; /* Padding interno */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+    /* Estilo das labels (dt) */
+    .client-details-dl dt {
+        font-weight: 600; /* Negrito nas labels */
+        color: #0056b3; /* Cor azul para as labels */
+        margin-bottom: 0.5rem; /* Espaçamento abaixo das labels */
+    }
+
+    /* Estilo dos valores (dd) */
+    .client-details-dl dd {
+        color: #555; /* Cor cinza escuro para os valores */
+        font-size: 1.1rem; /* Tamanho da fonte dos valores */
+    }
+
+/* Estilo para os links dentro de detalhes (botões de Editar e Voltar) */
+.client-details-buttons a {
+    font-size: 1rem; /* Tamanho de fonte maior para links */
+    padding: 0.75rem 1.5rem; /* Padding nos botões */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove sublinhado dos links */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Efeito suave no hover */
+}
+
+/* Estilos para o botão Editar */
+.client-details-buttons .btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: white;
+}
+
+    /* Efeito hover no botão Editar */
+    .client-details-buttons .btn-info:hover {
+        background-color: #138496;
+        border-color: #117a8b;
+        transform: translateY(-2px); /* Efeito de elevação */
+    }
+
+/* Estilos para o botão Voltar */
+.client-details-buttons .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: white;
+}
+
+    /* Efeito hover no botão Voltar */
+    .client-details-buttons .btn-secondary:hover {
+        background-color: #5a6268;
+        border-color: #545b62;
+        transform: translateY(-2px); /* Efeito de elevação */
+    }
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    .client-details-dl {
+        padding: 0.5rem;
+    }
+
+    .client-details-title {
+        font-size: 2rem;
+    }
+}
+

@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0jjfphd1q3</Fingerprint>
-      <Integrity>ZEL3mawHj/WDz+JqS68So4D3aIQtcGk3YNefwew79QI=</Integrity>
+      <Fingerprint>z2odew4ovc</Fingerprint>
+      <Integrity>1bYZkzDo7krrV9erSfohP+BznsqrCiWrSRxIMQHfmKA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>a15xay2mnu</Fingerprint>
-      <Integrity>vkmoxllUVgZSIJr7XIIIBGE3XYAA54vyCNMd0o52Tfg=</Integrity>
+      <Fingerprint>ik29sir0ai</Fingerprint>
+      <Integrity>vrbTn/BNuqWIsTlbQ/claX2IbxQAkzvLbayIdzETQmQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\cep-script.js'))</OriginalItemSpec>
