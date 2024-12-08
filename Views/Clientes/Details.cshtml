@@ -110,29 +110,3 @@
     </div>
     <p></p>
 </div>
-<!-- Seção para Validação do CPF e RG! -->
-@section Scripts {
-    <script src="~/js/cep-script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('#CEP').mask('00000-000');
-
-            $('#CPF').mask('000.000.000-00', {reverse: true});
-
-            $('#RG').mask('00.000.000-0', {reverse: true});
-
-            $('form').submit(function() {
-                var rg = $('#RG').val();
-                var cpf = $('#CPF').val();
-
-                $('#RG').val(rg.replace(/\D/g, ''));
-                $('#CPF').val(cpf.replace(/\D/g, ''));
-            });
-        });
-    </script>
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}
