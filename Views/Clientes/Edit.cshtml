@@ -5,8 +5,8 @@
 
     if (action == "create")
     {
-        ViewData["Title"] = "Adicionar Cliente";
-        <h1>Adicionar</h1>
+        ViewData["Title"] = "Cadastrar Cliente";
+        <h1>Cadastrar</h1>
     }
     else
     {
@@ -135,14 +135,12 @@
         </div>
         <br />
         <div class="form-group">
-            <input type="submit" value="Salvar" class="btn btn-primary" />
+            <input type="submit" value="Salvar" class="btn btn-info" />
+            <a asp-action="Index" class="btn btn-secondary">Voltar</a>
         </div>
     }
 </div>
 
-<div>
-    <a asp-action="Index">Voltar</a>
-</div>
 <!-- Seção para Validação do CPF e RG! -->
 @section Scripts {
     <script src="~/js/cep-script.js"></script>

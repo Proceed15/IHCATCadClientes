@@ -9,7 +9,6 @@
 
 <div>
     <h4>Cliente @Html.DisplayFor(model => model.Nome)</h4>
-    <hr />
     <dl class="row">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Nome)
@@ -100,17 +99,15 @@
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Complemento)
         </dt>
-        <dd class="col-sm-10">
+        <dd class="col-sm-8">
             @Html.DisplayFor(model => model.Complemento)
         </dd>
     </dl>
-    <dl class="row">
-        
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.id">Editar</a> |
-    <a asp-action="Index">Voltar</a>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.id" class="btn btn-primary">Editar</a> |
+        <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+    </div>
+    <p></p>
 </div>
 <!-- Seção para Validação do CPF e RG! -->
 @section Scripts {

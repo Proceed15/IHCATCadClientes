@@ -1,3 +1,4 @@
+/* Mudanças Gerais no Estilo usando esse Arquivo (site.css)! */
 html {
   font-size: 14px;
 }
@@ -11,6 +12,13 @@ html {
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #FFD700; /* Cor dourada ao passar o mouse */
+}
 
 html {
   position: relative;
@@ -18,5 +26,102 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Estilo da Tabela */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+}
+
+/* Tabela com listras */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Linhas da tabela com borda */
+.table-bordered {
+    border: 1px solid #FFD700;
+}
+
+/* Cabeçalho da tabela */
+.table-light th {
+    background-color: #FFD700;
+    color: white;
+    font-weight: lighter;
+}
+
+/* Alinhamento de texto nas células */
+.table td, .table th {
+    vertical-align: middle;
+    padding: 12px;
+}
+
+/* Estilizando os botões de ação */
+.btn {
+    font-size: 0.875rem;
+    color: white;
+    font-weight: lighter;
+    padding: 6px 12px;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Botões personalizados */
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #f1ed7f;
+}
+
+    .btn-info:hover {
+        background-color: #138496;
+        border-color: #117a8b;
+        transform: translateY(-2px);
+    }
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+        border-color: #545b62;
+        transform: translateY(-2px);
+    }
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+    .btn-danger:hover {
+        background-color: #c82333;
+        border-color: #bd2130;
+        transform: translateY(-2px);
+    }
+
+/* Estilo para o título principal */
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Margens para elementos */
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+/* Adicionando sombra sutil nos botões ao passar o mouse */
+.btn-sm:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }

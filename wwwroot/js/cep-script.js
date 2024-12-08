@@ -13,7 +13,8 @@ $(document).ready(function () {
                     $('#Cidade').val('');
                     $('#UF').val('');
                     //Emite um Alerta para quando não é encontrado
-                    //Bug de emitir dois alertas e travar a tela consertado, emite 1 alerta e libera o usuário
+                    //Bug de emitir dois alertas e travar a tela consertado
+                    //Emite 1 alerta e libera o usuário
                     alert('CEP não encontrado.');
                 }
             });

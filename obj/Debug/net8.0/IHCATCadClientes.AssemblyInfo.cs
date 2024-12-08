@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IHCATCadClientes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bee8c93933026b122c24a9663f6140e9d78dea92")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fc4eccb11f0cc8116026ff1e86cb6a6314d274d")]
 [assembly: System.Reflection.AssemblyProductAttribute("IHCATCadClientes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IHCATCadClientes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
